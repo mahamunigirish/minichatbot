@@ -43,15 +43,7 @@ conv = [
 trainer = ListTrainer(bot)
 trainer.train(conv)
 
-'''print("Talk To Bot,")
 
-
-while True:
-    query  = input()
-    if (query == exit):
-        break
-    answer = bot.get_response(query)
-    print("BOt :",answer)'''
 
 main = Tk()
 main.geometry("500x700")
